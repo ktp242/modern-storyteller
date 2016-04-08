@@ -1679,3 +1679,14 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 /*easing*/
 .homepage-4-slider .entry .background-wrapper, .homepage-4-slider .entry .text, .homepage-4-slider .entry .slide-title, .homepage-4-slider .entry .slide-description, .homepage-2-6-slider .background, .homepage-2-6-slider .text, .homepage-portfolio-preview-1 .background, .homepage-portfolio-preview-1 .text{transition-timing-function:cubic-bezier(0.8, 0, 0.2, 1); -webkit-transition-timing-function:cubic-bezier(0.8, 0, 0.2, 1);}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 34 - CALL FOR ENTRY */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.main {
+	background-color: #FFFFFF;
+}
+.content-wrapper {
+	background-color: #59c4ca;
+	width: 60%;
+}
