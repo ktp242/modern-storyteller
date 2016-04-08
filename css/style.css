@@ -1686,7 +1686,53 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 .main {
 	background-color: #FFFFFF;
 }
+
+.title {
+	margin: 10px auto;
+}
+
+.myLogo {
+	display: block;
+	margin: 24px auto;
+	width: 50%;
+}
+
 .content-wrapper {
 	background-color: #59c4ca;
-	width: 60%;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.intro {
+	color: #FFFFFF;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.cfe-button {
+	border: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	margin: 0 auto 10px;
+	padding: 10px;
+	text-align: center;
+	width: 140px;
+}
+
+.footer {
+	color: #59c4ca;
+	padding: 0 20px;
+}
+
+.socialMedia {
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+
+.copyright {
+	line-height: 16px;
+	padding: 0 20px;
 }
