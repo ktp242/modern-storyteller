@@ -1708,6 +1708,7 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 .intro {
 	color: #FFFFFF;
 	display: block;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	line-height: 20px;
 	margin: 20px auto 20px;
@@ -1719,6 +1720,7 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 	border-width: 1px;
 	color: #FFFFFF;
 	display: block;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	margin: 0 auto 10px;
 	padding: 10px;
@@ -1729,13 +1731,15 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 .footer {
 	background-color: #FFFFFF;
 	color: #59c4ca;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
 	margin-top: 16px;
 	padding: 0;
 }
 
 .socialMedia {
 	padding: 0 20px;
-	margin-bottom: 20px;
+	margin-bottom: 4px;
 }
 
 .copyright {
