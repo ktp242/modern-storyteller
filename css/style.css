@@ -1699,14 +1699,18 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 .content-wrapper {
 	background-color: #59c4ca;
+	display: block;
+	margin: 0 auto;
 	padding: 10px 20px;
 	width: 100%;
 }
 
 .intro {
 	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
 	line-height: 20px;
-	margin-bottom: 20px;
+	margin: 20px auto 20px;
 }
 
 .cfe-button {
@@ -1723,8 +1727,10 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 }
 
 .footer {
+	background-color: #FFFFFF;
 	color: #59c4ca;
-	padding: 0 20px;
+	margin-top: 16px;
+	padding: 0;
 }
 
 .socialMedia {
@@ -1735,4 +1741,46 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 .copyright {
 	line-height: 16px;
 	padding: 0 20px;
+}
+
+@media (min-width: 767px) {
+	.main {
+		padding: 0 5%;
+	}
+
+	.content-wrapper {
+	  -webkit-background-size: cover;
+		-moz-background-size: cover;
+	  -o-background-size: cover;
+		background-color: #59c4ca;
+		background-position: center;
+		background-size: cover;
+		background: url('../img/contentBG-s.png') no-repeat center center fixed; 
+		display: block;
+		margin: 0 auto;
+		padding: 10px 20px;
+		width: 100%;
+	}
+
+	.intro {
+		max-width: 500px;
+	}
+
+	.myLogo {
+		display: block;
+		margin: 0;
+		width: 20%;
+	}
+
+	.socialMedia {
+		float: right;
+		line-height: 16px;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	.copyright {
+		line-height: 16px;
+		padding: 0;
+	}
 }
