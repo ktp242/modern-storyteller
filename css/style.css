@@ -1713,7 +1713,6 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 	font-size: 1.1em;
 	line-height: 175%;
 	margin: 20px auto 20px;
-	/*padding-top: 20px;*/
 }
 
 .cfe-button {
@@ -1725,7 +1724,7 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 	display: block;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2em;
-	margin: 0 auto 10px;
+	margin: 0 auto 30px;
 	padding: 10px;
 	text-align: center;
 	width: 180px;
@@ -1776,13 +1775,12 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 		background-color: #59c4ca;
 		background-position: center;
 		background-size: cover;
-		background: url('../img/contentBg-s.jpg') no-repeat center center fixed; 
+		background: url('../img/contentBg-s.jpg') no-repeat center center; 
 		display: block;
 		margin: 0 auto;
+		max-height: 692px;
 		padding: 10px 20px;
 		width: 100%;
-		min-height: 624px;
-		padding-top: 5em;
 	}
 
 	.intro {
