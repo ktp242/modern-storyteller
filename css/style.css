@@ -1694,6 +1694,7 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 .myLogo {
 	display: block;
 	margin: 24px auto;
+	max-width: 200px;
 	width: 50%;
 }
 
@@ -1793,7 +1794,7 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 		display: block;
 		margin: 0;
 		margin-top: 25px;
-		width: 255px;
+		width: 200px;
 	}
 
 	.socialMedia {
