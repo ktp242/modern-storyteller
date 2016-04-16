@@ -1735,10 +1735,10 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 	color: #292e88;
 	-webkit-transition:all .25s ease-out;
 	transition:all .25s ease-out;
-	}
+}
 
 .footer {
-	background-color: #FFFFFF;
+	background: none;
 	color: #292e88;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
@@ -1748,34 +1748,62 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 .socialMedia {
 	padding: 0 20px;
-	margin-bottom: 4px;
-	margin-right: auto;
+	margin-bottom: 8px;
 	margin-left: auto;
-	text-align: center;
+	margin-right: auto;
 	margin-top: 10px;
+	text-align: center;
 }
 
 .copyright {
 	line-height: 16px;
-	padding: 0 20px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 0 20px;
 	text-align: center;
+}
+
+/* Overwrite the original setting of the template */
+.follow.style-2 .entry{
+	background: #2E328E;
+	border-color: #2E328E;
+	border-style: solid;
+	border-width: 1px;
+	color: #FFFFFF;
+}
+
+.follow.style-2 .entry:hover{
+	background: #FFFFFF;
+	border-color: #2E328E;
+	border-style: solid;
+	border-width: 1px;
+	color: #2E328E;
+	-webkit-transition:all .25s ease-out;
+	transition:all .25s ease-out;
+}
+
+/* Set none to avoid pseudo-element cover the content */
+.follow.style-2 .entry:before{
+	background: none;
 }
 
 @media (min-width: 767px) {
 	.main {
 		padding: 0 5%;
-	}
-
-	.content-wrapper {
-	  -webkit-background-size: cover;
+		-webkit-background-size: cover;
 		-moz-background-size: cover;
 	  -o-background-size: cover;
 		background-color: #59c4ca;
 		background-position: center;
 		background-size: cover;
-		background: url('../img/contentBg-s.jpg') no-repeat center center; 
+		background: url('../img/contentBg-s.jpg') no-repeat center center;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+	}
+
+	.content-wrapper {
+		background: none;
 		display: block;
 		margin: 0 auto;
 		max-height: 692px;
@@ -1785,7 +1813,6 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 	.intro {
 		max-width: 600px;
-		
 	}
 
 	.myLogo {
@@ -1798,9 +1825,8 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 	.socialMedia {
 		float: right;
 		line-height: 16px;
-		margin-bottom: 20px;
 		padding: 0;
-		margin-top: -20px;
+		margin-top: -40px;
 	}
 
 	.copyright {
