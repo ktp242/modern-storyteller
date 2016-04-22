@@ -1684,7 +1684,6 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 /* 34 - CALL FOR ENTRY */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 html {
-	
 	background-color: #FFFFFF;
 	height: 100%;
 	width: 100%;
@@ -1693,9 +1692,6 @@ html {
 body {
 	background-color: transparent;
 	height: 100%;
-}
-
-.main {
 }
 
 .title {
