@@ -1683,8 +1683,19 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 34 - CALL FOR ENTRY */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.main {
+html {
+	
 	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: transparent;
+	height: 100%;
+}
+
+.main {
 }
 
 .title {
@@ -1789,21 +1800,21 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 @media (min-width: 767px) {
 	html {
-		-webkit-background-size: cover;
 		-moz-background-size: cover;
-	  -o-background-size: cover;
+		-o-background-size: cover;
+		-webkit-background-size: cover;
+		background: url('../img/contentBg-s.jpg') no-repeat center center fixed;
 		background-color: #59c4ca;
-		background-position: center;
 		background-size: cover;
-		background: url('../img/contentBg-s.jpg') no-repeat center center;
-		position: fixed;
-		height: 100%;
-		width: 100%;
 	}
 
 	.main {
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
 		padding: 0 5%;
-		background-color: transparent;
+		position: relative;
+		transform: translateY(-50%);
+		top: 50%;
 	}
 
 	.content-wrapper {
