@@ -341,7 +341,7 @@ header.fixed.light.scrolled{background: #222;}
 header.white{background: #fff;}
 header.border-bottom{border-bottom: 1px #e3e3e3 solid;}
 .logo{display: inline-block; height: 50px; line-height: 50px; margin-top: -20px; position: relative; top: 10px; vertical-align: bottom;}
-.logo img{display: inline-block; vertical-align: middle; max-height: 30px; width: auto; top: -2px; position: relative;}
+.logo img{display: inline-block; vertical-align: middle; max-height: 50px; width: auto; top: 8px; position: relative;}
 .logo.responsive{display: none; position: absolute; left: 15px; top: 10px;}
 .navigation-wrapper{display: inline-block; margin-right: 65px;}
 .navigation-wrapper:last-child{margin-right: 0;}
@@ -434,7 +434,7 @@ header .follow .title, header .follow .entry{margin: 0;}
 	nav>ul>li>ul>li .toggle-icon, .megamenu .toggle-icon{color: #989898;}
 
 	/**/
-	header nav{overflow: hidden;}
+/*	header nav{overflow: hidden;}*/
 	header nav>ul>li{-webkit-transition:all 0.6s cubic-bezier(0.7, 0, 0.3, 1); transition:all 0.6s cubic-bezier(0.7, 0, 0.3, 1); transform: translateX(100%); -webkit-transform: translateX(100%); opacity: 0;}
 	body.open-menu header nav>ul>li{transform: translateX(0%); -webkit-transform: translateX(0%); opacity: 1;}
 
@@ -478,10 +478,10 @@ header.type-3{padding: 31px 0; height: 92px;}
 }
 
 /*header type 4*/
-header.type-4{padding: 42.5px 0; height: 115px;}
+header.type-4{padding: 20.5px 0; height: 115px;}
 /*Phones (<768px)*/
 @media (max-width: 767px) {
-	header.type-4{padding: 10px 0; height: 50px; margin-bottom: 15px;}
+	header.type-4{padding: 10px 0; height: 80px; margin-bottom: 15px;}
 }
 @media (min-width: 768px) {
 	header.fixed.scrolled.type-4{padding: 22px 0; height: 120px;}
@@ -1857,5 +1857,9 @@ body {
 
 .about.simple-article.light{color: #292e88;}
 .about.homepage-4-slider-navigation{width: 100%; right: 0;}
-.about.nav-right{position: absolute; right: 0; top: 80px;}
+.about.nav-right{position: absolute; right: 0; top: -50px;}
 .about.nav-item{margin-right: 40px;}
+
+@media (min-width: 768px) {
+	.about.logo-tite {text-align: left;}
+}
