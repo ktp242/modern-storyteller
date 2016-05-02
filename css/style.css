@@ -871,7 +871,7 @@ body:not(.mobile) .homepage-4-slider .entry:hover .background-wrapper:before{bac
 .homepage-4-slider .swiper-button-next{right: -80px;}
 .homepage-4-slider:hover .swiper-button-prev{left: 30px;}
 .homepage-4-slider:hover .swiper-button-next{right: 30px;}
-.homepage-4-slider-navigation{width: 115px; position: fixed; left: 0; top: 115px; bottom: 115px; font-size: 14px; line-height: 22px; color: #222; text-transform: uppercase;}
+.homepage-4-slider-navigation{width: 115px; position: fixed; left: 0; top: 115px; font-size: 14px; line-height: 22px; color: #222; text-transform: uppercase;}
 .homepage-4-slider-navigation.right{left: auto; right: 0;}
 body.min-height .homepage-4-slider-navigation{height: 100%; position: absolute; left: -115px; top: 0; bottom: 0;}
 body.min-height .homepage-4-slider-navigation.right{left: auto; right: -115px;}
