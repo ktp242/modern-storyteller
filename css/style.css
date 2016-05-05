@@ -1859,6 +1859,7 @@ body {
 .about.homepage-4-slider-navigation{width: 100%; right: 0;}
 .about.nav-right{position: absolute; right: 0; top: -50px;}
 .about.nav-item{margin-right: 40px;}
+.about-bio{text-align: left; width: 140%;}
 
 @media (min-width: 768px) {
 	.about.logo-tite {text-align: left;}
