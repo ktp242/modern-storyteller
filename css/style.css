@@ -1859,7 +1859,12 @@ body {
 .about.homepage-4-slider-navigation{width: 100%; right: 0;}
 .about.nav-right{position: absolute; right: 0; top: -50px;}
 .about.nav-item{margin-right: 40px;}
+.about-bio{margin: 0 auto; text-align: left; width: 80%;}
+.half-size{position: absolute; left: 25%; top: 25%; width: 50%; height: 50%;}
+.about.simple-article{font-size: 12px;}
 
 @media (min-width: 768px) {
+	.about-bio{margin:0; width: 140%;}
 	.about.logo-tite {text-align: left;}
+	.logo img{display: inline-block; vertical-align: middle; max-height: 75px; width: auto; top: 8px; position: relative;}
 }
