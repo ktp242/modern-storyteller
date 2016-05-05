@@ -1860,6 +1860,7 @@ body {
 .about.nav-right{position: absolute; right: 0; top: -50px;}
 .about.nav-item{margin-right: 40px;}
 .about-bio{text-align: left; width: 140%;}
+.half-size{position: absolute; left: 25%; top: 25%; width: 50%; height: 50%;}
 
 @media (min-width: 768px) {
 	.about.logo-tite {text-align: left;}
