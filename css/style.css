@@ -1868,3 +1868,11 @@ body {
 	.about.logo-tite {text-align: left;}
 	.logo img{display: inline-block; vertical-align: middle; max-height: 75px; width: auto; top: 8px; position: relative;}
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 36 - HOMEPAGE */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.homepage-bg{
+	background-color: #59c4ca;
+	background: url('../img/home-bg.jpg');
+}
