@@ -1780,7 +1780,6 @@ body {
 }
 
 .follow.style-2 .entry:hover{
-	background: #FFFFFF;
 	border-color: #2E328E;
 	border-style: solid;
 	border-width: 1px;
@@ -1791,7 +1790,7 @@ body {
 
 /* Set none to avoid pseudo-element cover the content */
 .follow.style-2 .entry:before{
-	background-color: none;
+	background-color: #FFF;
 }
 
 @media (min-width: 767px) {
@@ -1880,4 +1879,32 @@ body {
 
 .info-simple {
 	color: #292e88;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homepage-content {
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	width: 100%;
+}
+
+.homepage-footer {
+	display: inline-block;
+	bottom: 64px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.homepage-footer {
+		padding: 0 50px;
+		text-align: left;
+		width: 100%;
+	}
+	.homepage-copyright {
+		float: right;
+		margin-top: -24px;
+	}
 }
