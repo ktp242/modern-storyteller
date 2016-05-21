@@ -1854,7 +1854,7 @@ body {
 .about.full-size-banner-entry.style-1:before{display: none;}
 .about.full-size-banner-entry.style-2:before{background: rgba(0,0,0,.2);}
 
-.about.simple-article.light{color: #292e88; font-family: 'Montserrat', sans-serif; font-size: 10px;}
+.about.simple-article.light{color: #292e88;}
 .about.homepage-4-slider-navigation{width: 100%; right: 0;}
 .about.nav-right{position: absolute; right: 0; top: -50px;}
 .about.nav-item{margin-right: 40px;}
@@ -1863,7 +1863,6 @@ body {
 .about.simple-article{font-size: 12px;}
 
 @media (min-width: 768px) {
-	.about.simple-article.light{font-size: 12px;}
 	.about-bio{margin:0; width: 140%;}
 	.about.logo-tite {text-align: left;}
 	.logo img{display: inline-block; vertical-align: middle; max-height: 75px; width: auto; top: 8px; position: relative;}
