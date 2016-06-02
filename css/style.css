@@ -1912,10 +1912,30 @@ body {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 37 - DONATION */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) {
 
-@media (min-width: 992px) {
-	.donation-price {
+	.donation-package-wrapper {
 		margin-left: 0;
+		padding: 0 15px;
+		width: 100%;
+	}
+
+	.donation-package-title {
+		
+	}
+
+	.donation-package-price {
+		border-left: 5px solid #000;
+		display: inline-block;
+		padding: 0 0 0 20px;
+		vertical-align: top;
+		width: 160px;
+	}
+
+	.donation-package-reward {
+		display: inline-block;
+		margin: 0 0 0 30px;
+		/*word-break: break-all;*/
+		width: 500px;
 	}
 }
-
