@@ -1860,12 +1860,14 @@ body {
 .about.nav-item{margin-right: 40px;}
 .about-bio{margin: 0 auto; text-align: left; width: 80%;}
 .half-size{position: absolute; left: 25%; top: 25%; width: 50%; height: 50%;}
-.about.simple-article{font-size: 12px;}
+.about.simple-article{font-size: 12px; line-height: 20px;}
 
 @media (min-width: 768px) {
 	.about-bio{margin:0; width: 140%;}
+	.about-description{font-size: 16px; line-height: 24px}
 	.about.logo-tite {text-align: left;}
 	.logo img{display: inline-block; vertical-align: middle; max-height: 75px; width: auto; top: 8px; position: relative;}
+	.about.simple-article{font-size: 16px; line-height: 24px;}
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
