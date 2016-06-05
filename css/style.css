@@ -1915,7 +1915,37 @@ body {
 	display: none;
 }
 
+.donation {
+	background-color: #59c4ca;
+}
+
+.donation-title {
+	font-size: 40px;
+}
+
+.donation-reward-title {
+	line-height: 45px;
+}
+
 @media (min-width: 768px) {
+
+	.donation {
+		background-color: transparent;
+	}
+
+	.donation-bg {
+		background: url(./../img/donation-bg.png) no-repeat;
+		background-position: 50% 40%;
+		background-size: 145%;
+	}
+
+	.donation-title {
+		font-size: 60px;
+	}
+
+	.donation-reward-title {
+		line-height: 0px;
+	}
 
 	.donation-package-wrapper {
 		margin-left: 0;
