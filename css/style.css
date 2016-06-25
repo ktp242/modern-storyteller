@@ -1347,10 +1347,10 @@ div[class*="col"]:last-child .contacts-entry{border: none;}
 .portfolio-6 .sorting-item{padding: 0 15px;}
 .portfolio-6 .sorting-item, .portfolio-6 .grid-sizer{width: 33.33333333%;}
 .sorting-menu.style-2{font-size: 12px; line-height: 18px; color: rgba(255,255,255,.7); width: 255px; position: relative; display: inline-block; vertical-align: bottom;}
-.sorting-menu.style-2 .responsive-filtration-title{color: #989898; line-height: 30px; text-transform: uppercase; border-bottom: 1px #989898 solid; position: relative; cursor: pointer;}
-.sorting-menu.style-2 .responsive-filtration-title:after{content: ""; position: absolute; right: 0; top: 50%; margin-top: -2px; width: 0; height: 0; border-style: solid; border-width: 5px 3.5px 0 3.5px; border-color: #222222 transparent transparent transparent;}
+.sorting-menu.style-2 .responsive-filtration-title{color: #292e88; line-height: 30px; text-transform: uppercase; border-bottom: 1px #292e88 solid; position: relative; cursor: pointer;}
+.sorting-menu.style-2 .responsive-filtration-title:after{content: ""; position: absolute; right: 0; top: 50%; margin-top: -2px; width: 0; height: 0; border-style: solid; border-width: 5px 3.5px 0 3.5px; border-color: #292e88 transparent transparent transparent;}
 .sorting-menu.style-2 .responsive-filtration-title.active:after{transform: rotate(-180deg); -webkit-transform: rotate(-180deg);}
-.sorting-menu.style-2 .responsive-filtration-toggle{background: #222; padding: 20px; position: absolute; left: 0; top: 100%; width: 100%; z-index: 6; opacity: 0; transform-origin: 50% 0; -webkit-transform-origin: 50% 0; transform: perspective(500px) rotateX(-90deg); -webkit-transform: perspective(500px) rotateX(-90deg);}
+.sorting-menu.style-2 .responsive-filtration-toggle{background: #292e88; padding: 20px; position: absolute; left: 0; top: 100%; width: 100%; z-index: 6; opacity: 0; transform-origin: 50% 0; -webkit-transform-origin: 50% 0; transform: perspective(500px) rotateX(-90deg); -webkit-transform: perspective(500px) rotateX(-90deg);}
 .sorting-menu.style-2 .responsive-filtration-title.active+.responsive-filtration-toggle{transform: perspective(500px) rotateX(0deg); opacity: 1;}
 .sorting-menu.style-2 .responsive-filtration-toggle li{margin-bottom: 10px;}
 
@@ -1970,7 +1970,6 @@ body {
 	.donation-package-reward {
 		display: inline-block;
 		margin: 0 0 0 30px;
-		/*word-break: break-all;*/
 		width: 500px;
 	}
 }
