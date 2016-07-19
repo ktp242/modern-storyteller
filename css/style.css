@@ -1872,12 +1872,8 @@ body {
 	cursor: default;
 }
 
-.about.button.type-3:hover:before{
-	left: 0px;
-}
-.about.button.type-3:hover:after{
-	right: 0px;
-}
+.about.button.type-3:hover:before{left: 0px;}
+.about.button.type-3:hover:after{right: 0px;}
 
 @media (min-width: 768px) {
 	.about-bio{margin:0; width: 140%;}
