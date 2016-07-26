@@ -2006,3 +2006,27 @@ body {
 .project-detail-img-center {
 	margin: 0 auto;
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 39 - FOOTER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.simple-article img.footer-logo {
+	display: none;
+	height: 100%;
+	margin: 16px 16px 16px 0;
+	width: auto;
+}
+
+.footer-name {
+	display: block;
+}
+
+@media (min-width: 1024px) {
+	.simple-article img.footer-logo {
+		display: inline-block;
+	}
+	.footer-name {
+		display: none;
+	}
+}
